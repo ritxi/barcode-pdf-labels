@@ -1,0 +1,53 @@
+GIT
+  remote: git://github.com/prawnpdf/prawn.git
+  revision: ffcb42961f9023027f98d992c5c96b71a70e218e
+  specs:
+    prawn (1.0.0.rc2)
+      afm
+      pdf-reader (~> 1.2)
+      ruby-rc4
+      ttfunk (~> 1.0.3)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    Ascii85 (1.0.2)
+    activesupport (4.0.0)
+      i18n (~> 0.6, >= 0.6.4)
+      minitest (~> 4.2)
+      multi_json (~> 1.3)
+      thread_safe (~> 0.1)
+      tzinfo (~> 0.3.37)
+    afm (0.2.0)
+    atomic (1.1.14)
+    barby (0.5.1)
+    barcode_dispatcher (0.1.1)
+      activesupport (>= 3.0.12)
+      barby (>= 0.5.0)
+      prawn (>= 0.12.0)
+      rack (>= 1.2.5)
+      rmagick (>= 2.13.1)
+    hashery (2.1.1)
+    i18n (0.6.5)
+    minitest (4.7.5)
+    multi_json (1.8.0)
+    pdf-reader (1.3.3)
+      Ascii85 (~> 1.0.0)
+      afm (~> 0.2.0)
+      hashery (~> 2.0)
+      ruby-rc4
+      ttfunk
+    rack (1.5.2)
+    rmagick (2.13.2)
+    ruby-rc4 (0.1.5)
+    thread_safe (0.1.3)
+      atomic
+    ttfunk (1.0.3)
+    tzinfo (0.3.37)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  barcode_dispatcher
+  prawn!
